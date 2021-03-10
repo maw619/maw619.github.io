@@ -24,6 +24,45 @@
     <div class="input-group-addon">
         <span class="glyphicon glyphicon-th"></span>
     </div>
+
+
+
+    <form class="appointment-form" method="post" action="#" name="contact-form">
+                            <div class="column dt-sc-one-half first">                            
+                                <p><input type="text" name="username" placeholder="Your Name (required)" required/> </p>
+                                <p><input type="text" name="name" placeholder="Your Phone (required)" required/></p>
+                                <p><input type="email" name="Email" placeholder="Email" required/></p>
+                                <div class="selection-box">
+                                    <select class="Select Service (required)" required="">
+                                        <option value="">Select Service (required)</option>
+                                        <option value="cutting">Cutting</option>
+                                        <option value="styling">Styling</option>
+                                        <option value="colouring">Colouring</option>
+                                        <option value="facials">Facials</option>
+                                        <option value="spa">Manicure & Hand Spa</option>
+                                        <option value="curling">Hair Curling</option>
+                                    </select> 
+                                </div>                                 
+                                <div class="radio-btn" >
+                                    <label class="radio-btn"> 
+                                        <input type="radio" name="sex" value="male" checked>
+                                        <span>Male</span> 
+                                    </label>
+                                    <label class="radio-btn"> 
+                                        <input type="radio" name="sex" value="female">
+                                        <span>FeMale</span> 
+                                    </label>
+                                    <label class="radio-btn"> 
+                                        <input type="radio" name="sex" value="child">
+                                        <span>Child</span> 
+                                    </label>
+                                </div>                       
+                            </div>
+                            <div class="column dt-sc-one-half">
+                                <p><textarea class="message"  placeholder="Type here if you have some special requirements" required rows="10" cols="5" name="comment"></textarea></p>
+                                <p><input type="submit" name="submit" value="Book Now"></p>
+                            </div>
+                        </form>  
     </div>
 	</body>
 
